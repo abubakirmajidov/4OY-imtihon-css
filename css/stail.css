@@ -1,0 +1,671 @@
+:root {
+  --midnightgreen: #01e456;
+  --Light_Coral: #f67e7e;
+  --White: #ffffff;
+  --Rapture_Blue: #79c8c7;
+  --Police_Blue: #2c6269;
+  --Deep_Jungle_Green: #004047;
+  --Sacramento_State_Green: #012f34;
+  --Dark_Green: #002529;
+
+  /*h*/
+
+  --h1_lain-h_big: 100px;
+  --h1_font-w_big: 100px;
+
+  --h1_lain-h_small: 56px;
+  --h1_font-w_small: 64px;
+
+  --h2_lain-h: 48px;
+  --h2_font-w: 48px;
+
+  --h3_lain-h: 28px;
+  --h3_font-w: 18px;
+
+  --p_Body-1-w: 18px;
+  --p_Body-1-h: 28px;
+
+  --p_Body-2-w: 15px;
+  --p_Body-2-h: 25px;
+
+  /* buutton */
+
+  --buuton1-coller: var(--Sacramento_State_Green);
+  --button1-border: 1px solid var(--White);
+  --button1-w: 153px;
+  --button1-h: 48px;
+  --button1-p: 9px 33px 11px 32px;
+  --border-radius-button1: 25px;
+
+  --hover-button-coler: var(--White);
+  --hover-button1-border: 1px solid;
+
+  --buuton2-coller: var(--Whit);
+  --button2-border: 1px solid var(--Sacramento_State_Green);
+  --button2-w: 153px;
+  --button2-h: 48px;
+  --button2-p: 9px 33px 11px 32px;
+  --border-radius-button2: 25px;
+
+  --hover-button2-coler: var(--Sacramento_State_Green);
+  --hover-button2-border: 1px solid;
+
+  /* input */
+
+  --input-name-w: 540px;
+  --input-name-h: 42px;
+  --input-name-p: 0px 81px 17px 14px;
+  --input-name-b: 0 0 2px 0;
+  --input-name-b-c: #fff;
+  --input-name-h-type: 84px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.div-b {
+  background-image: url(../images/begraund/Group7.png);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.heade__container {
+  padding: 73px 165px 59px 165px;
+  display: flex;
+  align-items: center;
+  gap: 577px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 80.05px;
+}
+.div23 ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.div23 ul a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  transition: all 0.2s;
+  &:hover {
+    color: #f67e7e;
+  }
+}
+
+.button {
+  padding: var(--button1-p);
+  border: var(--button1-border);
+  border-radius: var(--border-radius-button1);
+  background-color: #014b53;
+  cursor: pointer;
+  color: #ffffff;
+  &:hover {
+    background-color: #ffffff;
+    color: #002529;
+    transition: all 0.2s;
+  }
+}
+
+.hero__container {
+  padding: 0px 165px 250px 165px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.tital h1 {
+  color: #ffffff;
+  font-size: var(--h1_font-w_big);
+  font-weight: 700;
+  line-height: var(--h1_lain-h_big);
+  letter-spacing: 0px;
+  text-align: left;
+  width: px;
+}
+
+.tital h1 span {
+  color: var(--Light_Coral);
+}
+
+.titals p {
+  width: 445px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.titals img {
+  margin-bottom: 54px;
+}
+
+.titals h2 {
+  font-family: "Livvic", sans-serif;
+  color: var(--White);
+  font-size: var(--h2_font-w);
+  font-weight: 600;
+  line-height: var(--h2_lain-h);
+  letter-spacing: 0px;
+  text-align: left;
+}
+.section1__container {
+  background-image: url(../images/begraund/Group20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 165px;
+  height: 600px;
+  display: flex;
+  gap: 125px;
+}
+.cards {
+  display: flex;
+  align-items: start;
+  margin-bottom: 32px;
+  gap: 23px;
+}
+
+.cards img {
+  margin-top: -5px;
+}
+
+.cards p {
+  margin-top: 16px;
+  width: 445px;
+  color: #ffffff;
+}
+
+.cards h3 {
+  color: var(--Light_Coral);
+}
+
+.section2__container {
+  background-image: url(../images/begraund/Group73.png);
+  height: 745px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.paragrf h1 {
+  padding-top: 200px;
+  color: #ffffff;
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.paragrf h1 span {
+  color: var(--Police_Blue);
+}
+
+.card-section {
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 56px 0px 0 200px;
+}
+/* 
+.cards-section {
+  margin: 56px 145px 0 165px;
+  width: 354px;
+} */
+
+.img1 {
+  margin-bottom: -30px;
+  margin-left: 70px;
+}
+
+.p-1 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: -42px;
+  color: #ffffff;
+  z-index: 1px;
+  margin-bottom: 24px;
+}
+
+.h3 {
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-left: -42px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--Rapture_Blue);
+  margin-bottom: 2px;
+}
+
+.p-2 {
+  font-family: "Livvic", sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: -42px;
+  margin-bottom: 32px;
+}
+
+.image2 {
+  margin-left: 90px;
+}
+
+.section3__container {
+  background-image: url(../images/begraund/Group74.png);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+  margin-top: -0px;
+  display: flex;
+  align-items: center;
+}
+
+.h1-2 {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  padding: 90px 260px 76px 263px;
+}
+
+.button2 {
+  padding: var(--button1-p);
+  border: var(--button1-border);
+  border-radius: var(--border-radius-button1);
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 100px;
+  &:hover {
+    background-color: #ffffff;
+    color: #002529;
+    transition: all 0.2s;
+  }
+}
+
+.footer__container {
+  background-color: var(--Dark_Green);
+  height: 196px;
+  padding: 48px 165px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.hkd {
+  margin-top: 25px;
+}
+
+.malimotlar li {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.malimotlar li a {
+  color: #ffffff;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.malimotlar {
+  width: 445px;
+}
+
+.div-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 51px;
+  justify-content: end;
+}
+
+.tital-link {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.div-b2 {
+  background-image: url(../images/begraund/Group201.png);
+  height: 517px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.tital145 {
+  color: #ffffff;
+  font-size: var(--h1_font-w_small);
+  font-weight: 700;
+  line-height: var(--h1_lain-h_small);
+  letter-spacing: 0px;
+  text-align: left;
+  width: x;
+}
+
+.tital h2 {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.hero1__container {
+  padding: 0px 165px 250px 165px;
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.p122 {
+  width: 730px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.section4__container {
+  background-image: url(../images/begraund/Group8Copy+Group8Mask.png);
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+  padding: 140px 165px;
+}
+
+.h1-56 {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section4-cards {
+  background-color: var(--Sacramento_State_Green);
+  width: 350px;
+  height: 253px;
+  margin-top: 64px;
+}
+
+.img-section4 {
+  margin: 32px 127px 16px 127px;
+}
+
+.section4-cards h3 {
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--Rapture_Blue);
+}
+
+.section4-cards p {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.img1-section4 {
+  background-color: #f67e7e;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1px;
+  margin-left: 145px;
+  margin-top: 20px;
+}
+
+.section4-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.section4-cards1 {
+  background-color: var(--Dark_Green);
+  padding: 35px 24px;
+  width: 350px;
+  height: 253px;
+  margin-top: 64px;
+}
+
+.section4-cards1 h3 {
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--Rapture_Blue);
+  margin-bottom: 8px;
+}
+
+.section4-cards1 p {
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ikonk {
+  margin-left: 125px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.img12-section4 {
+  background-color: #79c8c7;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1px;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.section5__container {
+  background-image: url(../images/begraund/Group.png);
+  height: 437px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+  padding: 140px 165px;
+}
+
+.section5__container h2 {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.section5__container div {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.names {
+  width: 165px;
+  height: 28px;
+}
+
+.main {
+  background-image: url(../images/begraund/Group71.png);
+  height: 789px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.tital-hero4 h2 {
+  font-family: "Livvic", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 165px;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.p34 {
+  font-family: "Livvic", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f67e7e;
+  margin-left: 165px;
+  margin-bottom: 32px;
+}
+
+.tital-hero4 div {
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.p54 {
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.hero5__continer {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.inputt-hero5 {
+  display: block;
+  position: relative;
+}
+
+input {
+  border: none;
+  width: var(--input-name-w);
+  height: var(--input-name-h);
+  padding-bottom: 16px;
+  border-bottom: 2px solid #fff;
+  background-color: #014d55;
+  margin-bottom: 24px;
+}
+
+textarea {
+  border: none;
+  width: var(--input-name-w);
+  height: var(--input-name-h-type);
+  padding-bottom: 16px;
+  border-bottom: 2px solid #fff;
+  background-color: #014d55;
+  margin-bottom: 24px;
+}
+
+.inputt-hero5 a {
+  position: absolute;
+  padding: 9px 32px 11px 32px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #004047;
+  margin-top: 100px;
+  bottom: -60px;
+  left: -0px;
+}
