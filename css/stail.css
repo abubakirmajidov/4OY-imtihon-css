@@ -669,3 +669,18 @@ textarea {
   bottom: -60px;
   left: -0px;
 }
+
+.button12 {
+  padding: var(--button1-p);
+  border: var(--button1-border);
+  border-radius: var(--border-radius-button1);
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 100px;
+  background-color: var(--Light_Coral);
+  &:hover {
+    background-color: #ffffff;
+    color: #002529;
+    transition: all 0.2s;
+  }
+}
